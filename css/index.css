@@ -1,3 +1,28 @@
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: blueviolet;
+  }
+
+  #categoryGrid {
+
+    align-items: baseline;
+    margin: 0px 5%;
+    width: 500;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "ux1"
+    "ux2"
+    "ux3"
+    ;
+  }
+
+}
+
+
 .topnav {
   background-color:rgba(0, 0, 0, 0);
   overflow: hidden;
@@ -62,7 +87,7 @@ display: flex;
 
 body {
 
-background-color: #FFFDF5;
+background-color: #FFFFFF;
 
 }
 
