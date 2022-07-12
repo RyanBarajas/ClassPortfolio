@@ -1,13 +1,15 @@
+
 @media only screen and (max-width: 600px) {
+
   body {
     background-color: blueviolet;
   }
 
   #categoryGrid {
 
-    align-items: baseline;
+    align-items: center;
     margin: 0px 5%;
-    width: 500;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
     display: grid;
