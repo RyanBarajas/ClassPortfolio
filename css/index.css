@@ -1,30 +1,4 @@
 
-@media only screen and (max-width: 600px) {
-
-  body {
-    background-color: blueviolet;
-  }
-
-  #categoryGrid {
-
-    align-items: center;
-    margin: 0px 5%;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-    "ux1"
-    "ux2"
-    "ux3"
-    ;
-  }
-
-}
-
-
 .topnav {
   background-color:rgba(0, 0, 0, 0);
   overflow: hidden;
@@ -316,4 +290,42 @@ li:hover {
 
 li .activef {
   border-left: 10px solid #FFFDF5;
+}
+
+@media only screen and (max-width: 600px) {
+
+  #categoryGrid {
+
+    align-items: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+    "ux1"
+    "ux2"
+    "ux3"
+    "design1"
+    "design2"
+    "design3"
+    "photo1"
+    "photo2"
+    "photo3"
+    ;
+  }
+
+  #categoryGridArea {
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+  cursor: pointer;
+  display: grid;
+  align-content: center;
+
+  }
+
 }
